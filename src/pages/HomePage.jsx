@@ -1,10 +1,8 @@
-import React from 'react'
-import Companies from '../components/Companies'
+import React from 'react';
+import Companies from '../components/Companies';
 
-const HomePage = () => {
-  return (
-   <Companies/> 
-  )
-}
+const HomePage = () => (
+  <Companies />
+);
 
-export default HomePage
+export default HomePage;

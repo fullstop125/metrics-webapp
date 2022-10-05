@@ -7,7 +7,7 @@ const NavBar = () => {
   const location = useLocation();
   return (
     <nav>
-      <ul className='nav-ul'>
+      <ul className="nav-ul">
         <li>
           {location.pathname === '/' ? (
             ''
@@ -16,9 +16,9 @@ const NavBar = () => {
           )}
         </li>
         <li>{location.pathname === '/' ? 'Company Information' : 'Details'}</li>
-        
+
         <li>
-          
+
           <FaMicrophone fontSize={20} style={{ marginRight: 20 }} />
           <FaRegSun fontSize={20} style={{ marginRight: 20 }} />
         </li>
