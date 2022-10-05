@@ -33,8 +33,7 @@ body {
   line-height: inherit;
   font-weight: inherit;
   color: inherit;
-  background-color: inherit;
-  background-color: #F14E95;
+  background-color: #256D85;
   color: #fff;
 }
 
@@ -44,7 +43,7 @@ nav {
   font-weight: 400;
   border-bottom: 1px solid #1a1a1a;
   transition: border-color 0.25s;
-  background-color: #EC4C8A;
+  background-color: #06283D;
 
 }
 
@@ -111,7 +110,7 @@ nav:focus-visible {
 }
 
 .bg-pink {
-  background-color: #FB5092;
+  background-color: #256D85;
 }
 
 .row {
