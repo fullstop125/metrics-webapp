@@ -10,8 +10,11 @@ This project is a web app that allows users to view and compare metrics for diff
 - vite
 - redux
 
+### Link To Video
+ [Video Link](https://www.loom.com/share/03627c7e2bbf4ce5b31995fd106d69ee
+)
 ### Live LInk
-[Metris Web App](https://metrics-app.netlify.app/)
+[Metrics Web App](https://metrics-app.netlify.app/)
 
 ### Setup
 
@@ -22,7 +25,7 @@ This project is a web app that allows users to view and compare metrics for diff
 > cd into the directory
     
     
-    cd bookstore-cms
+    cd metrics-webapp
   
 > Install dependencies
     
