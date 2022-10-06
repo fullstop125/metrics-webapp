@@ -8,7 +8,7 @@ exports[`DetailsPage renders correctly 1`] = `
     <div>
       <img
         alt="logo"
-        image={true}
+        src="image"
         style={
           {
             "borderRadius": 50,
