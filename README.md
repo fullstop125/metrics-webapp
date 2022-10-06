@@ -1,6 +1,4 @@
-# Project Name
-
-Metrics Web App
+# Metrics Web App
 
 # Description the project
 
