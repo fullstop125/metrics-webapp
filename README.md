@@ -64,7 +64,7 @@ $ npm start to run the local server
 👤 **Hassan Momanyi**
 
 - GitHub: [@fullstop125](https://github.com/fullstop125)
-- Twitter: [@twitterhandle](https://twitter.com/moseshassany)
+- Twitter: [@moseshassany](https://twitter.com/moseshassany)
 - LinkedIn: [momanyi-hassan](https://linkedin.com/in/momanyi-hassan/)
 
 ## 🤝 Contributing
