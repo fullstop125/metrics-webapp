@@ -1,4 +1,3 @@
-
 a {
   font-weight: 500;
   color: #646cff;
@@ -56,7 +55,7 @@ nav:focus-visible {
   align-items: center;
 }
 
-.nav-li + .nav-li {
+.nav-li+.nav-li {
   margin-left: 1.2em;
 }
 
@@ -139,11 +138,11 @@ nav:focus-visible {
   padding: 0;
 }
 
-.card-image + .card-title {
+.card-image+.card-title {
   margin-top: 1.2em;
 }
 
-.card-image + .card-description {
+.card-image+.card-description {
   margin-top: 0.6em;
 }
 
@@ -185,3 +184,46 @@ nav:focus-visible {
   font-size: 16px;
   font-weight: 800;
 }
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+}
+
+
+.search-input {
+  width: 40%;
+  height: 40px;
+  margin-top: 20px;
+  padding: 0 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  background-color: #16213e;
+}
+
+.search-input:focus {
+  border: 1px solid #646cff;
+}
+
+.search-input::placeholder {
+  color: #fff;
+}
+
+.drop-down {
+  width: 40%;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 0 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  background-color: #16213e;
+}
+

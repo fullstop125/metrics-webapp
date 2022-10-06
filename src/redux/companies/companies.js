@@ -32,7 +32,7 @@ export const fetchData = createAsyncThunk(
   FETCH_DATA,
   async (args, { dispatch }) => {
     const response = await fetch(
-      ' https://financialmodelingprep.com/api/v3/dowjones_constituent?apikey=1849291febbb7913533c2d47c76d7557',
+      ' https://financialmodelingprep.com/api/v3/dowjones_constituent?apikey=0e741c19cd0b3adfcef5b257799dea2d',
     );
     const data = await response.json();
     dispatch({ type: FETCH_DATA, payload: data });
@@ -43,7 +43,7 @@ export const fetchDataBySymbol = createAsyncThunk(
   FETCH_DATA_BY_SYMBOL,
   async (args, { dispatch }) => {
     const response = await fetch(
-      `https://financialmodelingprep.com/api/v3/profile/${args}?apikey=1849291febbb7913533c2d47c76d7557`,
+      `https://financialmodelingprep.com/api/v3/profile/${args}?apikey=0e741c19cd0b3adfcef5b257799dea2d`,
     );
     const data = await response.json();
     dispatch({ type: FETCH_DATA_BY_SYMBOL, payload: data[0] });
