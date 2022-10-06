@@ -1,5 +1,5 @@
 import React from 'react';
-import renderer from 'react-test-renderer'; 
+import renderer from 'react-test-renderer';
 import Companies from '../__Mocks__/Companies';
 
 describe('Companies', () => {

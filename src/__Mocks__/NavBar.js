@@ -1,14 +1,12 @@
 import React from 'react';
 
-const NavBar = () => {
-  return (
-    <nav>
-      <ul className='nav-ul'>
-        <li>pathname === '/' ? '' : 'details'</li>
-        <li>pathname === '/' ? 'Company Information' : 'Details'</li>
-      </ul>
-    </nav>
-  );
-};
+const NavBar = () => (
+  <nav>
+    <ul className="nav-ul">
+      <li>pathname === &apos;/&apos; ? &apos; &apos; : &apos;details&apos;</li>
+      <li>pathname === &apos;/&apos; ? &apos;Company Information&apos; : &apos;Details&apos;</li>
+    </ul>
+  </nav>
+);
 
 export default NavBar;

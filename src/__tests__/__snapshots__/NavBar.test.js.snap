@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NavBar renders correctly 1`] = `
+exports[`renders correctly 1`] = `
 <nav>
   <ul
     className="nav-ul"
   >
     <li>
-      pathname === '/' ? '' : 'details'
+      pathname === '/' ? ' ' : 'details'
     </li>
     <li>
       pathname === '/' ? 'Company Information' : 'Details'

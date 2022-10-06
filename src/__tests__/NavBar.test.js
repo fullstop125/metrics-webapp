@@ -1,10 +1,8 @@
 import React from 'react';
-import renderer from 'react-test-renderer'; 
-import NavBar from '../__Mocks__/NavBar';
+import renderer from 'react-test-renderer';
+import Navbar from '../__Mocks__/NavBar';
 
-describe('NavBar', () => {
-  it('renders correctly', () => {
-    const tree = renderer.create(<NavBar />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+it('renders correctly', () => {
+  const tree = renderer.create(<Navbar />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

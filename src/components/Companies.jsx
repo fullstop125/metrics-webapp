@@ -17,21 +17,22 @@ const Companies = () => {
 
   return (
     <>
-      <div className='search'>
+      <div className="search">
         <input
-          className=' search-input'
-          type='text'
+          className=" search-input"
+          type="text"
           onChange={(e) => setSearch(e.target.value)}
-          placeholder='Search Company'
+          placeholder="Search Company"
           value={search}
         />
-        <select className='drop-down'
+        <select
+          className="drop-down"
           value={select}
           onChange={(e) => {
             setSelect(e.target.value);
           }}
         >
-          <option value=''>
+          <option value="">
             Select Company
           </option>
           {companiesData.map((company) => (
@@ -41,35 +42,40 @@ const Companies = () => {
           ))}
         </select>
       </div>
-      <div className='container'>
+      <div className="container">
         <h3>Industrial Average</h3>
       </div>
-      <div className='bg-pink'>
-        <h3 className='company-name'>Companies Name</h3>
-        <div className='row'>
+      <div className="bg-pink">
+        <h3 className="company-name">Companies Name</h3>
+        <div className="row">
           {companiesData
             .filter((company) => {
               if (search === '' && select === '') {
                 return company;
-              } else if (
-                company.name.toLowerCase().includes(search.toLowerCase()) &&
-                company.name.toLowerCase().includes(select.toLowerCase())
+              } if (
+                company.name.toLowerCase().includes(search.toLowerCase())
+                && company.name.toLowerCase().includes(select.toLowerCase())
               ) {
                 return company;
               }
+              return null;
             })
             .map((company) => (
               <div
                 key={uuidv4()}
-                className='card'
+                className="card"
                 onClick={() => navigate(`/details/${company.symbol}`)}
-                aria-hidden='true'
+                aria-hidden="true"
               >
-                <FaArrowCircleRight className='icon-arrow' />
-                <ul className='lists'>
+                <FaArrowCircleRight className="icon-arrow" />
+                <ul className="lists">
                   <li>
                     {company.name}
-                    <span>({company.symbol})</span>
+                    <span>
+                      (
+                      {company.symbol}
+                      )
+                    </span>
                   </li>
                   <li>{company.headQuarter}</li>
                 </ul>

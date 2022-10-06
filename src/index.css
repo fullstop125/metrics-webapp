@@ -55,7 +55,7 @@ nav:focus-visible {
   align-items: center;
 }
 
-.nav-li+.nav-li {
+.nav-li + .nav-li {
   margin-left: 1.2em;
 }
 
@@ -138,11 +138,11 @@ nav:focus-visible {
   padding: 0;
 }
 
-.card-image+.card-title {
+.card-image + .card-title {
   margin-top: 1.2em;
 }
 
-.card-image+.card-description {
+.card-image + .card-description {
   margin-top: 0.6em;
 }
 
@@ -193,7 +193,6 @@ nav:focus-visible {
   list-style: none;
 }
 
-
 .search-input {
   width: 40%;
   height: 40px;
@@ -226,4 +225,3 @@ nav:focus-visible {
   color: #fff;
   background-color: #16213e;
 }
-
