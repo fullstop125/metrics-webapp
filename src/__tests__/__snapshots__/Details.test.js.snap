@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Companies renders correctly 1`] = `
+[
+  <div
+    className="search"
+  >
+    <input
+      className=" search-input"
+      onChange={[Function]}
+      placeholder="Search Company"
+      type="text"
+    />
+    <select
+      className="drop-down"
+      onChange={[Function]}
+    >
+      <option
+        value=""
+      >
+        Select Company
+      </option>
+      <option>
+        name
+      </option>
+    </select>
+  </div>,
+  <div
+    className="container"
+  >
+    <h3>
+      Industrial Average
+    </h3>
+  </div>,
+  <div
+    className="bg-pink"
+  >
+    <h3
+      className="company-name"
+    >
+      Companies Name
+    </h3>
+    <div
+      className="row"
+    >
+      companiesData
+      <div
+        aria-hidden="true"
+        className="card"
+      >
+        <ul
+          className="lists"
+        >
+          <li>
+            name
+            <span>
+              symbol
+            </span>
+          </li>
+          <li>
+            headQuarter
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>,
+]
+`;
